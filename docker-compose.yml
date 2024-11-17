@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  toolkit:
+    build: .
+    container_name: cybersecurity_toolkit
+    volumes:
+      - .:/app
+    ports:
+      - "8080:8080" # Example port mapping if needed
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
