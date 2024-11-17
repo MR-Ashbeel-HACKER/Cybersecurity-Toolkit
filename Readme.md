@@ -16,12 +16,33 @@ Welcome to the **Cybersecurity Toolkit**. This toolkit provides various powerful
 - **Required Tools**: Nmap, Metasploit, Burp Suite, Hydra, Aircrack-ng, etc. (All of these will be installed using the script or Docker image)
 
 ## Installation Instructions
-
+      
 Follow these steps to install and run the toolkit.
 
-### Option 1: Install Using `install.sh` Script
 
-1. Clone the repository to your local machine:
+first clone the repository
+
+sudo git clone https://github.com/MR-Ashbeel-HACKER/Cybersecurity-Toolkit/edit/main/Readme.md
+cd Cybersecurity-Toolkit
+chmod +x requrment.txt
+
+run the code
+
+python test.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    ```bash
    git clone https://github.com/your-repository/cybersecurity_toolkit.git
