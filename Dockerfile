@@ -36,7 +36,8 @@ RUN apt-get update && apt-get install -y \
 # RUN pip install -r requirements.txt
 
 # Copy the Python script into the container
-COPY app.py /app/app.py
+COPY test.py /app/test.py
+
 
 # If Burp Suite is installed and needs to be accessed via the web interface, expose the port
 # For Burp Suite, we would typically expose 8080 if you're running its web proxy
